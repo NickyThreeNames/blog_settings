@@ -1,0 +1,49 @@
+{
+  "arch": "x86_64", 
+  "build": "py27_0", 
+  "build_number": 0, 
+  "channel": "https://repo.continuum.io/pkgs/free/win-64/", 
+  "date": "2015-02-16", 
+  "depends": [
+    "python 2.7*"
+  ], 
+  "files": [
+    "Lib/site-packages/ecdsa-0.13-py2.7.egg-info", 
+    "Lib/site-packages/ecdsa/__init__.py", 
+    "Lib/site-packages/ecdsa/__init__.pyc", 
+    "Lib/site-packages/ecdsa/_version.py", 
+    "Lib/site-packages/ecdsa/_version.pyc", 
+    "Lib/site-packages/ecdsa/curves.py", 
+    "Lib/site-packages/ecdsa/curves.pyc", 
+    "Lib/site-packages/ecdsa/der.py", 
+    "Lib/site-packages/ecdsa/der.pyc", 
+    "Lib/site-packages/ecdsa/ecdsa.py", 
+    "Lib/site-packages/ecdsa/ecdsa.pyc", 
+    "Lib/site-packages/ecdsa/ellipticcurve.py", 
+    "Lib/site-packages/ecdsa/ellipticcurve.pyc", 
+    "Lib/site-packages/ecdsa/keys.py", 
+    "Lib/site-packages/ecdsa/keys.pyc", 
+    "Lib/site-packages/ecdsa/numbertheory.py", 
+    "Lib/site-packages/ecdsa/numbertheory.pyc", 
+    "Lib/site-packages/ecdsa/rfc6979.py", 
+    "Lib/site-packages/ecdsa/rfc6979.pyc", 
+    "Lib/site-packages/ecdsa/six.py", 
+    "Lib/site-packages/ecdsa/six.pyc", 
+    "Lib/site-packages/ecdsa/test_pyecdsa.py", 
+    "Lib/site-packages/ecdsa/test_pyecdsa.pyc", 
+    "Lib/site-packages/ecdsa/util.py", 
+    "Lib/site-packages/ecdsa/util.pyc"
+  ], 
+  "license": "MIT", 
+  "link": {
+    "source": "C:\\Users\\Nicholas\\Anaconda2\\pkgs\\ecdsa-0.13-py27_0", 
+    "type": "hard-link"
+  }, 
+  "md5": "e5aef6f4370aebb4a556eb888db8d0da", 
+  "name": "ecdsa", 
+  "platform": "win", 
+  "requires": [], 
+  "size": 74618, 
+  "url": "https://repo.continuum.io/pkgs/free/win-64/ecdsa-0.13-py27_0.tar.bz2", 
+  "version": "0.13"
+}

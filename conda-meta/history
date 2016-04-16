@@ -1,0 +1,15 @@
+==> 2016-04-16 12:00:07 <==
+# cmd: C:\Users\Nicholas\Anaconda3\Scripts\conda-script.py create -n pelican1 python=2
+pip-8.1.1-py27_1
+python-2.7.11-4
+setuptools-20.7.0-py27_0
+vs2008_runtime-9.00.30729.1-0
+wheel-0.29.0-py27_0
+# create specs: ['python 2*']
+==> 2016-04-16 14:37:23 <==
+# cmd: C:\Users\Nicholas\Anaconda2\Scripts\conda-script.py install -c https://conda.binstar.org/binstar fabric
++ecdsa-0.13-py27_0
++fabric-1.11.1-py27_0
++paramiko-1.16.0-py27_0
++pycrypto-2.6.1-py27_3
+# install specs: ['fabric', 'python 2.7*']

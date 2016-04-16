@@ -1,0 +1,9 @@
+beautifulsoup4~=4.3.2
+feedgenerator~=1.7
+html5lib~=0.999
+Markdown~=2.5.2
+Pygments~=2.0.2
+pyreadline~=2.0
+smartypants~=1.8.6
+typogrify~=2.0.7
+gitpython
