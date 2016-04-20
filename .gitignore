@@ -1,6 +1,7 @@
 pelican-plugins/
 pelican-themes/
-cache
+cache/
+output/
 *.pyc
 *.pid
 .Python

@@ -27,6 +27,11 @@ LINKS = (('Pelican', 'http://getpelican.com/'),)
 SOCIAL = (('GitHub', 'https://github.com/NickyThreeNames'),
           ('LinkedIn', 'https://www.linkedin.com/in/nick-conti-6364475'),)
 
+STATIC_PATHS = ['images', ]
+
+THEME = "pelican-themes/blue-penguin"
+
+
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
