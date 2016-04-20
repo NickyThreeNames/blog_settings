@@ -92,3 +92,8 @@ def gh_pages():
     rebuild()
     local("ghp-import -b {github_pages_branch} {deploy_path}".format(**env))
     local("git push origin {github_pages_branch}".format(**env))
+
+def publish():
+    local('pelican content -o output -s pelicanconf.py')
+    local('ghp-import output')
+    local('git push https://github.com/NickyThreeNames/NickyThreeNames.github.io.git gh-pages:master')
