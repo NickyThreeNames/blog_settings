@@ -43,7 +43,7 @@ TWITTER_USERNAME = '@NickyThreeNames'
 
 #NOTEBOOK_DIR = 'notebooks'
 
-E#XTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
+#EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
 MENUITEMS = (('Blog', SITEURL),)
 DEFAULT_PAGINATION = 10
 
