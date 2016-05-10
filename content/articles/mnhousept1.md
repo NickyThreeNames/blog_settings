@@ -14,7 +14,7 @@ Summary: Part 1 in series examining MN State House 2014 election results.
 This will be a multi-part post looking at what happened to the DFL candidates for State House in 2014.  It will be focused on the numbers rather than message or issues, mainly because we have more access to the numbers.  In later parts we will create more metrics (such as democratic base and DPI) and visualize the results with maps.  When I was working on this, I used a few Jupyter notebooks that are available [here](www.github.com/NickyThreeNames).  Fair warning, they are pretty disorganized but do show all of the steps (albeit out of order).
 
 ### 2014 Results
-In this post we are going to gather data from the [Minnesota Secretary of State](www.sos.state.mn.us) and [Wikipedia](http://www.wikipedia.com) to get some election results
+In this post we are going to gather data from the [Minnesota Secretary of State](http://www.sos.state.mn.us) and [Wikipedia](http://www.wikipedia.com) to get some election results
 
 Let's start with results from the most recent general election, 2014.  The following Python code will initialize needed packages and put the results into a [Pandas](http://pandas.pydata.org/index.html "Pandas Documentation") dataframe made from the excel file.  
     
@@ -53,7 +53,7 @@ The Secretary of State only has raw vote totals but this not how we usually look
     stateHouseStats2016 = e14
 ### Candidate information
 
-As part of our analysis, we will want to see which representatives are incumbents.  Luckily, Wikipedia has legislator data for the Minnesota House complete with a table of when they were elected [here](https://en.wikipedia.org/wiki/Minnesota_House_of_Representatives).  The following code loads our libraries and starts our webscrape using [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/).
+As part of our analysis, we will want to see which representatives are incumbents.  Luckily, Wikipedia has legislator data for the Minnesota House complete with a table of when they were elected [here](https://en.wikipedia.org/wiki/Minnesota_House_of_Representatives).  The following code loads our libraries and starts our webscrape using [Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/).
     
     :::python
     import matplotlib.pyplot as plt

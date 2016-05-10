@@ -6,4 +6,4 @@ Slug: resume
 Author: Nick Conti
 Summary: Resume
 
-[My Resume]({filename}/pdfs/Resume.pdf)
+Downloadable copy of my resume is [here]({filename}/pdfs/Resume.pdf).
