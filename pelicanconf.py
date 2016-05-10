@@ -47,9 +47,17 @@ BOOTSTRAP_FLUID = True
 BOOTSTRAP_THEME = 'flatly'
 
 AVATAR  = 'images/me.png'
-ABOUT_ME = 'I am a data analyst working in banking and living in Minneapolis.  Previously, I worked in campaigns and occasionally miss nerding out about campaigns.'
+ABOUT_ME = """
+I am a data analyst working in banking and living in Minneapolis. Previously, I worked in campaigns moving from field organizing to working as a Statewide Data Director.   Somewhere along the line, I was introduced to R and then Python.
+<br/>
+<br/>
+ When not dealing with numbers, I enjoy running, biking, and enjoying a beer on a patio.
+ """
+
+DISQUS_SITENAME = 'politinerd'
+
 #EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
-MENUITEMS = (('Blog', SITEURL),)
+#MENUITEMS = (('Blog', SITEURL),)
 DEFAULT_PAGINATION = 10
 
 CACHE_CONTENT = False
