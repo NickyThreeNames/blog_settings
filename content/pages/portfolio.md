@@ -15,6 +15,8 @@ This is a spot to highlight ongoing and completed projects in data analysis.  If
 
 Basically working to find better ways to display election data on maps.  There are two posts, available here and here that go more in depth.  Additionally, you can take a look at this github [repo](https://github.com/NickyThreeNames/ElectionStatsandMap).  As part of this I have been trying to move away from just static pictures and create more interactivity.
 
+![mnmap]({filename}/images/shresults.PNG)
+
 Live version available [here](http://bl.ocks.org/NickyThreeNames/e3228a8ea478b78c802bb12ac94e3d8c)
 
 ### Election Statistics
