@@ -25,7 +25,7 @@ While working on campaigns, I spent many hours pouring over targeting spreadshee
 
 ### Flask and D3 Powered Web App
 
-While working on some of the above projects, I became more interested on how to host some basic applications online.   I found this [tutorial](https://realpython.com/blog/python/web-development-with-flask-fetching-data-with-requests/#deploying) at [Real Python](https://realpython.com/) and decided to give it a try.  This has been a great tutorial, but I have been having trouble deploying the app.  I am blaming Windows 10 for the issues, but once I get it deployed I will definitely write a post about the process.  Github repo is [here](https://github.com/NickyThreeNames/stocksD3) in the meantime.
+While working on some of the above projects, I became more interested on how to host some basic applications online.   I found this [tutorial](https://realpython.com/blog/python/web-development-with-flask-fetching-data-with-requests/#deploying) at [Real Python](https://realpython.com/) and decided to give it a try.  The app creates a bubble chart with D3.js.  This has been a great tutorial, but I had some trouble deploying the app until I switched to Heroku for hosting.  Live version is [here](http://stocksncm.herokuapp.com/) and  Github repo is [here](https://github.com/NickyThreeNames/stocksD3).
 
 ### Targeting Dashboard
 
