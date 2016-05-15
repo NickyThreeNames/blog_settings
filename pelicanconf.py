@@ -54,6 +54,8 @@ I am a data analyst working in banking and living in Minneapolis. Previously, I 
  When not dealing with numbers, I can be found running, biking, and enjoying a beer on a patio.
  """
 
+
+DISQUSURL = 'http://nickythreenames.github.io'
 DISQUS_SITENAME = 'politinerd'
 
 #EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
