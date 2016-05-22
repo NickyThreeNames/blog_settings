@@ -9,11 +9,11 @@ Summary: Portfolio
 
 ### Overview
 
-This is a spot to highlight ongoing and completed projects in data analysis.  If I have written a post about the project, I will update the description here to include a link.  My goal is to have a post for all of the listed projects once they are completed.
+Curious about a project I've written about in the past?  Find updates here,, I will be updating the descriptions here and including links.  My goal is to have a post for all of the listed projects once they are completed.
 
 ### Election Results Mapping
 
-Basically working to find better ways to display election data on maps.  There is a post on the blog (and another on the way) that goes more in depth.  Additionally, you can take a look at this github [repo](https://github.com/NickyThreeNames/ElectionStatsandMap).  As part of this I have been trying to move away from just static pictures and create more interactivity.
+There's got to be a better way to display election data on maps, right?.  There is a post on the blog (and another is on the way) that goes more in depth.  Additionally, you can take a look at this github [repo](https://github.com/NickyThreeNames/ElectionStatsandMap).  As part of this effort, I have been trying to move away from just static pictures and create more interactivity.
 
 ![mnmap]({filename}/images/shresults.PNG)
 
