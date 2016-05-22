@@ -30,7 +30,11 @@ SOCIAL = (('GitHub', 'https://github.com/NickyThreeNames'),
           ('LinkedIn', 'https://www.linkedin.com/in/nick-conti-6364475'),
           ('Twitter', 'https://twitter.com/nickythreenames'))
 
-STATIC_PATHS = ['images', 'pdfs', 'notebooks',]
+STATIC_PATHS = ['images', 'pdfs', 'notebooks', 'extra/CNAME']
+
+EXTRA_PATH_METADATA = {
+    'extra/CNAME': {'path': 'CNAME'},
+    }
 
 THEME = "pelican-themes/pelican-bootstrap3"
 PLUGIN_PATHS = ['pelican-plugins']

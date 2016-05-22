@@ -13,7 +13,7 @@ This is a spot to highlight ongoing and completed projects in data analysis.  If
 
 ### Election Results Mapping
 
-Basically working to find better ways to display election data on maps.  There are two posts, available here and here that go more in depth.  Additionally, you can take a look at this github [repo](https://github.com/NickyThreeNames/ElectionStatsandMap).  As part of this I have been trying to move away from just static pictures and create more interactivity.
+Basically working to find better ways to display election data on maps.  There is a post on the blog (and another on the way) that goes more in depth.  Additionally, you can take a look at this github [repo](https://github.com/NickyThreeNames/ElectionStatsandMap).  As part of this I have been trying to move away from just static pictures and create more interactivity.
 
 ![mnmap]({filename}/images/shresults.PNG)
 
@@ -25,7 +25,7 @@ While working on campaigns, I spent many hours pouring over targeting spreadshee
 
 ### Flask and D3 Powered Web App
 
-While working on some of the above projects, I became more interested on how to host some basic applications online.   I found this [tutorial](https://realpython.com/blog/python/web-development-with-flask-fetching-data-with-requests/#deploying) at [Real Python](https://realpython.com/) and decided to give it a try.  The app creates a bubble chart with D3.js.  This has been a great tutorial, but I had some trouble deploying the app until I switched to Heroku for hosting.  Live version is [here](http://stocksncm.herokuapp.com/) and  Github repo is [here](https://github.com/NickyThreeNames/stocksD3).
+While working on some of the above projects, I became more interested on how to host some basic applications online.   I found this [tutorial](https://realpython.com/blog/python/web-development-with-flask-fetching-data-with-requests/#deploying) at [Real Python](https://realpython.com/) and decided to give it a try.  The app creates a bubble chart with D3.js based on stock prices and volume.  This has been a great tutorial, but I had some trouble deploying the app until I switched to Heroku for hosting.  Live version is [here](http://stocksncm.herokuapp.com/) and  Github repo is [here](https://github.com/NickyThreeNames/stocksD3).
 
 ### Targeting Dashboard
 

@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://nickythreenames.github.io'
+SITEURL = 'http://nickconti.io'
 RELATIVE_URLS = False
 #MENUITEMS = (('Blog', SITEURL),)
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
@@ -21,4 +21,4 @@ DELETE_OUTPUT_DIRECTORY = True
 # Following items are often useful when publishing
 
 DISQUS_SITENAME = "politinerd"
-#GOOGLE_ANALYTICS = ""
+GOOGLE_ANALYTICS = "UA-78165431-1"
