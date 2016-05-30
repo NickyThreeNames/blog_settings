@@ -21,7 +21,11 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com'),)
+LINKS = (('Pelican', 'http://getpelican.com'),
+		('FiveThirtyEight', 'http://fivethirtyeight.com'),
+		('RealPython', 'http://realpython.com'),
+		('Yhat', 'https://www.yhat.com'),
+		('R-bloggers', 'http://www.r-bloggers.com'),)
 
 #SIDEBAR_DIGEST = 'Programmer and Data Analyst'
 

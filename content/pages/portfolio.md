@@ -28,6 +28,8 @@ While working on campaigns, I spent many hours pouring over targeting spreadshee
 
 While working on some of the above projects, I became more interested on how to host some basic applications online.   I found this [tutorial](https://realpython.com/blog/python/web-development-with-flask-fetching-data-with-requests/#deploying) at [Real Python](https://realpython.com/) and decided to give it a try.  The app creates a bubble chart with D3.js based on stock prices and volume.  This was great tutorial, but I had some trouble deploying the app until I switched to Heroku for hosting.  Live version is [here](http://stocksncm.herokuapp.com/) and  Github repo is [here](https://github.com/NickyThreeNames/stocksD3).
 
+{% img /images/stockViz1.PNG Stock Vizualization %}
+
 ### Targeting Dashboard
 
 Despite spending years of my life trying to make sense of gargantuan spreadsheets full of district statistics, I always thought there had to be a better way to target competitive districts.  Then I stumbled into [Crossfilter](http://square.github.io/crossfilter/) and [dc.js](https://dc-js.github.io/dc.js/) and was really impressed.  I had tried some basic projects but was really inspired to work off of an example I saw [here](https://austinlyons.github.io/dcjs-leaflet-untappd/#).  This [repo](https://github.com/NickyThreeNames/targetingDashboard) has my ongoing work to get an interactive targeting dashboard up and running with data from 2014.
