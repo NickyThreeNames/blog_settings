@@ -1,6 +1,6 @@
 Title: What Happened to the State House in 2014? - pt2
 Date: 2016-5-31 07:49
-Category: Blog, Tutorial
+Category: Blog
 Tags: Tutorial, MNHouse, map, Folium
 Slug: mn_house_pt2
 Author: Nick Conti

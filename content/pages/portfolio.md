@@ -22,7 +22,11 @@ Interactive version available [here](http://bl.ocks.org/NickyThreeNames/e3228a8e
 
 ### Election Statistics
 
-While working on campaigns, I spent many hours pouring over targeting spreadsheets.  These re-create a lot of the stastics used in precinct/district targeting such as DPI, Dem Base, Turnout, etc.  The notebooks used to create the post are available [here](https://github.com/NickyThreeNames/ElectionStatsandMap), and contains a lot of additional analysis that I will post about soon.
+While working on campaigns, I spent many hours pouring over targeting spreadsheets.  These re-create a lot of the stastics used in precinct/district targeting such as DPI, Dem Base, Turnout, etc.  The notebooks used to create the post are available [here](https://github.com/NickyThreeNames/ElectionStatsandMap), and it contains a lot of additional analysis that I will post about soon.
+
+Interactive version available [here](http://bl.ocks.org/NickyThreeNames/553327998df38ddf56cc46c6d38713d8)
+
+![mninteractive]({filename}/images/leafletInteractive3.PNG)
 
 ### Flask and D3 Powered Web App
 
