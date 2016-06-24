@@ -44,11 +44,15 @@ THEME = "pelican-themes/pelican-bootstrap3"
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.youtube', 'liquid_tags.vimeo',
-           'liquid_tags.include_code']
+           'liquid_tags.include_code', 'tag_cloud']
+
+DISPLAY_TAGS_ON_SIDEBAR = True
+
+DISPLAY_TAGS_INLINE = True
 
 DISPLAY_PAGES_ON_MENU = True
 
-#TWITTER_USERNAME = "@NickyThreeNames"
+TWITTER_USERNAME = "@NickyThreeNames"
 
 NOTEBOOK_DIR = 'notebooks'
 BOOTSTRAP_FLUID = True
