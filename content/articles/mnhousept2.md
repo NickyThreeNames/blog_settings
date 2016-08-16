@@ -1,7 +1,7 @@
 Title: What Happened to the State House in 2014? - pt2
 Date: 2016-5-31 07:49
 Category: Blog
-Tags: Tutorial, MNHouse, map, Folium
+Tags: Tutorial, MNHouse, map, Folium, Python
 Slug: mn_house_pt2
 Author: Nick Conti
 Summary: Part two in a series examining MN State House 2014 election results.

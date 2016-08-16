@@ -1,7 +1,7 @@
 Title: What Happened to the State House in 2014? - pt3
 Date: 2016-6-22 08:49
 Category: Blog
-Tags: Tutorial, MNHouse, elections
+Tags: Tutorial, MNHouse, elections, Python
 Slug: mn_house_pt3
 Author: Nick Conti
 Summary: More election statistics than you can shake a stick at. Part three in a series.

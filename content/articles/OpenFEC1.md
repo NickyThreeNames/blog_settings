@@ -1,7 +1,7 @@
 Title: Winner, Winner, [Rubber] Chicken Dinner
 Date: 2016-6-7 21:33
 Category: Blog
-Tags: Tutorial, Congress, FEC, api, python
+Tags: Tutorial, Congress, FEC, api, Python
 Slug: FEC_api
 Author: Nick Conti
 Summary: Use the FEC API to find MN's most prolific Congressional fundraiser.
