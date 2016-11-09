@@ -1,0 +1,23 @@
+Title: 2016 Presidential Election Prediction
+Date: 2016-11-7 20:49
+Category: Blog
+Tags:  Election, Python
+Slug: prezpredict
+Author: Nick Conti
+Summary: Quick prediction for the 2016 Presidential Election.
+
+
+It's that time of year again: election prediction season! Not to be left out, I have pulled together a prediction for the election. Using data from [Pollyvote](www.pollyvote.com), I aggregated state level polls from the past 100 days and used them run simulations of the election. 
+
+![simulations]({filename}/images/simulations.PNG)
+
+The graph above shows the results of 10,000 simulations and the probability of each total of electoral votes. The map of results is below.
+
+![resultmap]({filename}/images/map2.PNG)
+
+You can see that Florida once again hangs in the balance. I'm calling it for the Dems, but it will (as always) be a close call. North Carolina is also looking closer than I expected but still leaning Republican. Despite all of the press to the contrary, my simulation shows Michigan, Ohio, and Pennsylvania in the Clinton camp.
+
+I will post a follow-up with more details about the methodology and code used to generate the predictions, but in the meantime thank you to [538](http:/projects.fivethirtyeight.com/2016-election-forecast/), [Pollyvote](www.pollyvote.com), and Harvard's [CS109](http://cs109.github.io/2015/) for inspiration/data/code.
+
+Be sure to vote tomorrow!
+
