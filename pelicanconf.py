@@ -41,11 +41,10 @@ EXTRA_PATH_METADATA = {
     }
 
 THEME = "pelican-themes/pelican-bootstrap3"
-PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['liquid_tags.img', 'liquid_tags.video',
-           'liquid_tags.youtube', 'liquid_tags.vimeo',
-           'liquid_tags.include_code', 'tag_cloud']
+PLUGIN_PATHS = ["pelican-plugins"]
+PLUGINS = ['liquid_tags.img', 'liquid_tags.video', 'liquid_tags.vimeo', 'liquid_tags.include_code', 'tag_cloud', 'i18n_subsites']
 
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 DISPLAY_TAGS_ON_SIDEBAR = True
 
 DISPLAY_TAGS_INLINE = True
