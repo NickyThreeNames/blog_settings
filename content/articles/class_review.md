@@ -12,7 +12,7 @@ Summary: Review of Persuasion Analytics and Targeting Class.
 
 {% img [election] /images/elections.jpg [width 100 [height 100]] [election | " " [" "]] %}
 
-Tldr; Great class, learned a lot!
+tl;dr Great class, learned a lot!
 
 [Persuasion Analytics and Targeting](http://www.statistics.com/persuasion-analytics/) taught by [Ken Strasma](http://www.statistics.com/mr-ken-strasma), covers campaign micro-targeting theory, and application using real (anonymized) campaign data. Using actual camapign data, including candidate and partisanship IDs, demographic data, and commercial data, really made this class great (even for an old political hack like me). In the class you build partisanship, candidate, and persuadability models. Additionally, there is great material on evaluating models, measuring impact, and strategy of how and when to use different models during a campaign. 
 
@@ -40,7 +40,7 @@ Targeting for TV, online and social media
 Applying previously created models to build a direct mail program  
 Campaign strategy using micro-targeting  
 
-There were some great discussions about polling and applying micro-targeting more effectively in campaigns. Ken Strasma is suprisingly active on the message boards with advice and help on class problems. It was fascinating to get his perspective on the recent election (and associated polling fiasco).
+There were some great discussions about polling and applying micro-targeting more effectively in campaigns. Ken Strasma is suprisingly active on the message boards with advice and help on class problems. It was fascinating to get his perspective on the recent election and the associated polling fiasco.
 
 **Pros:**  
 Lectures are interesting  
@@ -54,7 +54,7 @@ Could have used more feedback on the modeling process
 Never quite got used to the forums for conversations with classmates  
 TV and social media is light on practice despite good background info  
 
-FYI – The lectures are in PDFs. I like to read when learning new stuff but I can understand that not everyone does.
+FYI – The lectures are in PDFs. I like to read when learning but I can understand that not everyone does.
 
 Rough drafts of my Jupyter notebooks from the class are on Github [here](https://github.com/NickyThreeNames/persuadeanalytics).
 
