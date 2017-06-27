@@ -10,7 +10,7 @@ Summary: Review of Persuasion Analytics and Targeting Class.
 
 
 
-{% img [election] /images/elections.jpg [width 100 [height 100]] [election | " " [" "]] %}
+![election]({filename}/images/elections.jpg)
 
 tl;dr Great class, learned a lot!
 
