@@ -15,9 +15,9 @@ In the Persuasion Analytics and Targeting (review available [here](http://www.ni
 Using logistic regression was a great way to practice using a tried and true machine learning technique. It is well studied and almost every program and framework has an optimized process for running it. In this tutorial, I use [sci-kit learn](http://scikit-learn.org/stable/) to implement a logistic regression model to predict voter partisanship.
 
 ###The Data
-The data set was provided for the class and is actual campaign data used to create predictive models. It contains a combination of voter file data (publicly available), demographic information from the Census, commercially purchased enhancements, and derived fields (number of poeple in household, number of last 3 elections voted in, etc.). The data also contained ID responses from voter ID calls since this is actual (anonymized)campaign data, I cannot share it nor show too much of the data exploration, but I can walk through the process for building models. 
+The data set was provided for the class and is actual campaign data used to create predictive models. It contains a combination of voter file data (publicly available), demographic information from the Census, commercially purchased enhancements, and derived fields (number of poeple in household, number of last 3 elections voted in, etc.). The data also contained ID responses from voter ID calls since this is actual (anonymized) campaign data. I cannot share it or show too much of the data exploration, but I can walk through the process for building models. 
 
-The sample data was from a state with party registration, so we had nearly complete coverage for which party affiliation. Some may be asking why we would create a partisanship model in this case. There are always new voters that may not have yet registered with a party or registered Independents/3rd party who share a lot of similarities with voters in one party. In my experience, a lot of voters may claim to be Independent or "just vote for the person, not party", but have exclusively voted for one party their entire adult lives. Creating a partisanship model will help more helpfully assign them to a party for targeting purposes. Additionally, it can be helpful to try modeling exactly how partisan a voter happens to be. There is no "partisanship requirement" to party registration.
+The sample data was from a state with party registration, so we had nearly complete coverage for which party affiliation. Some may be asking why we would create a partisanship model in this case. There are always new voters that may not have yet registered with a party or registered Independent/3rd-party who share a lot of similarities with voters in one party. In my experience, a lot of voters may claim to be Independent or "just vote for the person, not party," but have exclusively voted for one party their entire adult lives. Creating a partisanship model will help more helpfully assign them to a party for targeting purposes. Additionally, it can be helpful to try modeling exactly how partisan a voter happens to be. There is no "partisanship requirement" to party registration.
 
 Due to the commercial nature of the data, I will not share the data exploration code/results. However, it was quickly clear that several columns were correlated with each other. This multicollinearity will throw off logistic regression, I either had to manually pick between the columns or use regularization. I decided to test both L1 and L2 regularization rather than manually pick columns. More on that below.
 
@@ -77,14 +77,14 @@ Once the data was ready, I separated out the target variable (party) so that it 
 
 ###Modeling
 
- As mentioned earlier, this data contained a lot of correlated fields which is problematic for logistic regression so I will test two methods of regularization. Additionally, I will use the scikit-learn standard [scaler](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html) to normalize all of the columns. This will all be loaded into a pipeline along with different values for C to test how strong of regularization to use.
+ As mentioned earlier, this data contained a lot of correlated fields which is problematic for logistic regression so I tested two methods of regularization. Additionally, I used the scikit-learn standard [scaler](http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html) to normalize all of the columns. This was all loaded into a pipeline along with different values for C to test how strong of regularization to use.
 
 
 	::python
 	logistic_pipeline = Pipeline([('scl', StandardScaler()),
                             ('clf', LogisticRegression())])
 
-Next, I set the parameters I want to search. The model will test five values for both L1 and L2 regularization.
+Next, I set the parameters I want to search. The model tested five values for both L1 and L2 regularization.
 
 	::python
 	param_grid = [{'clf__penalty':["l1","l2"],
@@ -92,7 +92,7 @@ Next, I set the parameters I want to search. The model will test five values for
                'clf__C':[0.001, 0.01, 0.1, 0.5, 1],
               }]
 
-With the pipeline ready, I will use 5 fold cross validation (link) to compare the model parameters. Ultimately the model will be used to give a probability score to everyone rather than just labels. Given this goal,I will use AUC to compare the models (and pick the best).
+With the pipeline ready, I used 5 fold cross validation (link) to compare the model parameters. Ultimately the model will be used to give a probability score to everyone rather than just labels. Given this goal, I used AUC to compare the models (and pick the best).
 
 	::python
 	gs2=GridSearchCV(estimator=logistic_pipeline,
@@ -110,7 +110,7 @@ And finally, the code below starts the model fitting process.
 
 The best model was Logistic regression with L2 regularization and C=1 which got an average AUC of .78 on the training data. 
 
-I will then run this final model on the test set and plot the ROC curve.
+I then ran this final model on the test set and plot the ROC curve.
 
 	::python
 	y_trained = gs2.predict_proba(X_test)[:, 1]

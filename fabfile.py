@@ -96,4 +96,4 @@ def gh_pages():
 def publish():
     local('pelican content -o output -s pelicanconf.py')
     local('ghp-import output')
-    local('git push https://github.com/NickyThreeNames/NickyThreeNames.github.io.git gh-pages:master')
+    local('git push --force https://github.com/NickyThreeNames/NickyThreeNames.github.io.git gh-pages:master')
