@@ -1,7 +1,7 @@
 Title: Build an Interactive Election Explorer with Leaflet and R
 Date: 2016-6-28 07:55
 Category: Blog
-Tags: Tutorial, MNHouse, elections, R, GIS
+Tags: Tutorial, MNHouse, elections, R, GIS, Leaflet
 Slug: interactive_election_R
 Author: Nick Conti
 Summary: Learn how to build an interactive election explorer in R.
