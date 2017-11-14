@@ -7,8 +7,13 @@ Author: Nick Conti
 Summary: Courses List
 
 ## Overview
-This is a summary of courses that I have been working on as I learn Python and R.  These are short descriptions but do include links to github and will include links to longer reviews on my blog as I add them.  Enjoy!
+This is a summary of courses that I have been working on as I learn Python and R.  These are short descriptions but they usually include links to github. I will include links to longer reviews on my blog as I add them.  Enjoy!
 
+### Persuasion Analytics and Targeting - Ken Strasma
+This was a online course at Statistics.com by the inimitable Ken Strasma talking about microtargeting, persuasion, and voter modeling. It was a phenomenal class that I highly recommend. A full write-up is available [here](http://www.nickconti.io/persuasion_analytics.html).
+
+### Presenting Data and Information - Edward Tufte
+I was lucky enough to attend a one-day seminar by the master of data visualization, Edward Tufte. The presentation was fascinating and seeing it in person was a great experience. Prof. Tufte is an engaging speaker and the seminar covers a wide variety of topics including the history of data analysis, visualization theory, and advice on running meetings to convey technical information. I plan to do a full review on the blog in the future. In the meantime, definitely take this course if you have the opportunity.
 
 ### Python Data Structures, Algorithms, and Interviews - Udemy
 This is a paid [course](http://www.udemy.com/python-for-data-structures-algorithms-and-interviews/) on Udemy by Jose Portilla that covers several Computer Science concepts including arrays, linked lists, trees, search, and graph algorithms. This overview has been invaluable to me as a self-taught programmer.  The instructor has does a great job explaining the concepts with live coding and interview questions about each concept in Python.  This combination of lecture, practice, and quizzes has been a great way to make sure the material has sunk in.  Since starting this course, a lot of books and tutorials have clicked for me. I cannot recommend this course highly enough! [Github](https://github.com/NickyThreeNames/algorithmsCourse) 
