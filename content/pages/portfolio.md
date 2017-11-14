@@ -17,7 +17,7 @@ There's got to be a better way to display election data on maps, right?  There i
 
 Interactive version available [here](http://bl.ocks.org/NickyThreeNames/e3228a8ea478b78c802bb12ac94e3d8c)
 
-![mnmap]({filename}/images/shresults.PNG)
+![mninteractive]({filename}/images/leafletInteractive3.PNG)
 
 
 ### Election Statistics
@@ -26,7 +26,7 @@ While working on campaigns, I spent many hours pouring over targeting spreadshee
 
 Interactive version available [here](http://bl.ocks.org/NickyThreeNames/553327998df38ddf56cc46c6d38713d8)
 
-![mninteractive]({filename}/images/leafletInteractive3.PNG)
+![mnmap]({filename}/images/shresults.PNG)
 
 ### Flask and D3 Powered Web App
 
