@@ -7,9 +7,22 @@ Author: Nick Conti
 Summary: Portfolio
 
 
-### Overview
+## Overview
 
 Curious about a project I've written about in the past?  I will be updating the descriptions here and including links.  My goal is to have a post for all of the listed projects once they are completed.
+
+### Dashboard for Targeting Competitive House Races in Minnesota
+
+I wanted to build a tool I wish I had  when I  was a State Data Manager - an interactive dashboard to sort out the data about what will be the most competitive races. While interactive data tools such as Tableau have become more common, the high cost (both monetary and technical) are still a huge barrier to many organizations. I built this dashboard using only open source tools including javascript, d3.js, dc.js, and HTML.
+
+It is currently a single-page app, and I plan on integrating it into a Flask or Django app. The live version of the dashboard is [here](https://targeting.updog.co/) 
+
+![mninteractive]({filename}/images/TargetingDashboard2.png)
+
+### Statistical Modeling of Voter Behavior
+
+After taking the Persuasion Analytics and Targeting class from Ken Strasma (full review [here](http://www.nickconti.io/persuasion_analytics.html)), I continued working on predictive voter  modeling. The focus has been on trying new algorithms and data preparation pipelines to model partisanship and candidate preference. My language of choice has been Python and you can see the details of the work so far in the following blog posts focused on [partisanship modeling](http://www.nickconti.io/partisan_model.html) and [candidate support models](http://www.nickconti.io/candidate_models.html). I am continuing to try new approaches and will publish my work on voter turnout modeling soon.
+
 
 ### Election Results Mapping
 
@@ -34,7 +47,5 @@ While working on some of the above projects, I became more interested on how to 
 
 ![stockviz]({filename}/images/StockViz1.PNG)
 
-### Targeting Dashboard
 
-Despite spending years of my life trying to make sense of gargantuan spreadsheets full of district statistics, I always thought there had to be a better way to target competitive districts.  Then I stumbled into [Crossfilter](http://square.github.io/crossfilter/) and [dc.js](https://dc-js.github.io/dc.js/) and was really impressed.  I had tried some basic projects but was really inspired to work off of an example I saw [here](https://austinlyons.github.io/dcjs-leaflet-untappd/#).  This [repo](https://github.com/NickyThreeNames/targetingDashboard) has my ongoing work to get an interactive targeting dashboard up and running with data from 2014.
 
